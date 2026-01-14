@@ -1,0 +1,90 @@
+/* ===============================
+   ESTILO GERAL
+================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* ===============================
+   CONTAINER PRINCIPAL
+================================ */
+
+#cv {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+}
+
+/* ===============================
+   COLUNA ESQUERDA
+================================ */
+
+.left {
+    width: 30%;
+    background-color: #0b3c5d;
+    color: white;
+    padding: 20px;
+}
+
+.left h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Foto */
+.foto {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   COLUNA DIREITA
+================================ */
+
+.right {
+    width: 70%;
+    padding: 30px;
+}
+
+.right h1 {
+    margin-bottom: 0;
+    color: #333;
+}
+
+.right h2 {
+    margin-top: 0;
+    color: #666;
+}
+
+.right h3 {
+    color: #0b3c5d;
+}
+
+/* Linha horizontal */
+hr {
+    border: 1px solid #ddd;
+}
+
+/* Experiência */
+.job-title {
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: gray;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+}
